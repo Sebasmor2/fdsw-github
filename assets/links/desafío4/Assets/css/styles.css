@@ -1,0 +1,111 @@
+body {
+    background-color: #F8F9FA; /* Fondo claro */
+}
+.navbar {
+    background-color: #28a745; /* Verde */
+}
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+.nav-link.disabled {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.card {
+    border: 1px solid #dee2e6;
+}
+.card-title {
+    color: #212529; /* Gris oscuro */
+}
+.card-text {
+    color: #707070; /* Gris medio */
+}
+.form-group label {
+    color: #212529; /* Gris oscuro */
+}
+.btn-primary {
+    background-color: #28a745; /* Verde */
+    border-color: #28a745;
+}
+.btn-primary:hover {
+    background-color: #218838; /* Verde oscuro */
+    border-color: #1e7e34;
+}
+.container {
+    background-color: white; /* Blanco */
+    padding: 20px;
+    border-radius: 8px;
+}
+i{
+    color: #212529;
+    width: 2px;
+    height: 2px;
+}
+
+.fa-map-marker-alt{
+     margin-right: 8px
+}
+
+.precio-contenedor {
+    text-align: center; /* Centrar el texto */
+    margin: 10px 0; /* Márgenes para separación */
+}
+
+.precio-original {
+    text-decoration: line-through; /* Precio tachado */
+    color: #999; /* Color gris para el precio original */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+
+.precio-descuento {
+    color: #28a745; /* Color rojo para el precio con descuento */
+    font-size: 18px; /* Tamaño más grande para el precio con descuento */
+    font-weight: bold; /* Negrita para resaltar el precio con descuento */
+}
+
+.precio-contenedor {
+    text-align: center; /* Centrar el texto */
+    margin: 10px 0; /* Márgenes para separación */
+}
+
+.precio-original {
+    text-decoration: line-through; /* Precio tachado */
+    color: #999; /* Color gris para el precio original */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+
+.precio-descuento {
+    color: #d9534f; /* Color rojo para el precio con descuento */
+    font-size: 18px; /* Tamaño más grande para el precio con descuento */
+    font-weight: bold; /* Negrita para resaltar el precio con descuento */
+}
+
+/* Fondo verde para el formulario */
+form {
+    background-color: #28a745; /* Verde */
+    padding: 20px; /* Espacio interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra */
+}
+form h5 {
+    color: white; /* Blanco */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+.form-group label {
+    color: white; /* Blanco */
+}
+.form-control {
+    border: 1px solid #dee2e6; /* Borde gris claro */
+    border-radius: 4px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+.btn-primary {
+    background-color: white; /* Blanco */
+    color: #28a745; /* Verde */
+    border-color: white; /* Blanco */
+}
+.btn-primary:hover {
+    background-color: #e6e6e6; /* Gris claro */
+    color: #218838; /* Verde oscuro */
+    border-color: #e6e6e6; /* Gris claro */
+}

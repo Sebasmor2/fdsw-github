@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.main-section {
+   background-color: bisque;
+    background-image: url('../imgs/vaporesso-background.jpg');
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.main-section h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.main-section h1 span {
+    color: #333;
+}
+
+.main-section p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.product-section {
+    background-color: rgb(235, 224, 210);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+.product {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 600px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.product img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+.product-info {
+    font-size: 1em;
+    color: #333;
+}
+.footer {
+    background-color: #2da09a; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2em;
+}
